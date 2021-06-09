@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1300px)  {
+	
+	* { margin: 0;
+		padding: 0;
+
+	}
+	
+	#wrapper { margin: 0; 
+		      width: 100%;
+	}
+	
+	body { min-width: 768px; 
+	}
+	
+	header { background-size: 1300px 400px; 
+	}
+	
+	nav { min-width: 1300px;
+	
+	}
+	
+	#imageGallery { display: none;
+	
+	}
+
+}
+	
+@media only screen and (max-width: 768px) {
+	* { margin: 0;
+		padding: 0;
+
+	}
+	
+	#wrapper { margin: 0; 
+		      width: 100%;
+	}
+	
+	body { min-width: 768px; 
+		   background-image: none;
+	}
+	
+	header { background-size: 768px 400px; 
+	}
+	
+	nav { display: none;
+	
+	}
+	
+	#season1, #season2, #chars {display: none;}
+	
+	
+	#imageGallery { display: none;
+	}
+	
+	#mobileNav{ display: inline; 
+	}
+				
+	#mobileNav h2 { font-size: 200%;
+					font-family: impact, serif;
+					text-align: center;
+	}
+	
+	#mobileNav li { font-size: 60%;
+					font-family: arial;
+					padding-bottom: 10px;
+					margin-left: 10px;
+					list-style-type: none;
+					text-align: left;
+	}
+	
+	#mobileNav li a { color: black; 
+					  text-decoration: none;
+	}
+
+}
